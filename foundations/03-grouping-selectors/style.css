@@ -1,0 +1,13 @@
+.default, .emphasized {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.default {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.emphasized {
+    background-color: rgb(241, 228, 32);
+}
