@@ -12,6 +12,32 @@ img {
   font-weight: 900;
 }
 
+.inf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.plants-container {
+  display: flex;
+  padding: 0 32px;
+  gap: 64px;
+}
+
+.plant-wrapper {
+  max-width: 200px;
+}
+
+.plant-name:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
 /* do not edit this footer */
 .footer {
   position: fixed;
